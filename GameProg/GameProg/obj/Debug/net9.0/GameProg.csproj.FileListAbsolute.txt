@@ -3,3 +3,13 @@ C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\
 C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.AssemblyInfo.cs
 C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.csproj.CoreCompileInputs.cache
 C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.sourcelink.json
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\bin\Debug\net9.0\GameProg.exe
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\bin\Debug\net9.0\GameProg.deps.json
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\bin\Debug\net9.0\GameProg.runtimeconfig.json
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\bin\Debug\net9.0\GameProg.dll
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\bin\Debug\net9.0\GameProg.pdb
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.dll
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\refint\GameProg.dll
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.pdb
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.genruntimeconfig.cache
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\ref\GameProg.dll

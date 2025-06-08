@@ -1,5 +1,5 @@
 
-// manage adopted pets, stats, and handle periodic updates.
+// manages adopted pets, their stats, and handles periodic updates.
 
 using System.Collections.Generic;
 using System.Linq; 
@@ -10,13 +10,13 @@ namespace GameProg
     public class PetManager
     {
         private readonly List<IPet> adoptedPets;
-        private Timer? petUpdateTimer; // periodic stat decrease
+        private Timer? petUpdateTimer; 
         
-        // stat decrease variables
-        private readonly int statDecreaseAmount = 1; // decrease amount
+        // configurable stat decrease parameters
+        private readonly int statDecreaseAmount = 1; // amount to decrease each stat by per tick
         private readonly TimeSpan statDecreaseInterval = TimeSpan.FromSeconds(5); // how often stats decrease
 
-        // dvent to notify Game when a pet has died(RIP)
+        // event to notify Game when a pet under care has died
         public event EventHandler<PetDiedEventArgs> PetDiedInCare;
 
         public PetManager()
@@ -32,7 +32,8 @@ namespace GameProg
                 return;
             }
             adoptedPets.Add(pet);
-            pet.Died += HandlePetDeathInternal; // sub to pets own Died event
+            pet.Died += HandlePetDeathInternal; // subscribe to the pet's own Died event
+            pet.StatsChanged += HandlePetStatsChanged; 
 
             Console.WriteLine($"{pet.Name} the {pet.Type} is now under your care.");
 
@@ -42,14 +43,18 @@ namespace GameProg
                 StartPetUpdates();
             }
         }
-
+        
         private void HandlePetStatsChanged(object? sender, PetStatsChangedEventArgs e)
+        {
+            
+        }
 
         private void HandlePetDeathInternal(object? sender, PetDiedEventArgs e)
         {
+            // this handles the Died event from an individual pet.
             PetDiedInCare?.Invoke(this, e); 
             
-            // if no living pets stop the timer.
+            // if no living pets remain, stop the timer.
             if (!adoptedPets.Any(p => p.IsAlive))
             {
                 StopPetUpdates();
@@ -58,7 +63,6 @@ namespace GameProg
         
         public void FormallyRemoveDeceasedPet(string petName, PetType petType)
         {
-            // find deceased pet
             IPet? petToRemove = adoptedPets.FirstOrDefault(p => p.Name == petName && p.Type == petType && !p.IsAlive);
             if (petToRemove != null)
             {
@@ -92,12 +96,12 @@ namespace GameProg
                 return;
             }
             
-            Console.WriteLine($"\n Time Passes for Your Pets ({DateTime.Now:T}) ");
+            Console.WriteLine($"\n--- Time Passes for Your Pets ({DateTime.Now:T}) ---");
             foreach (var pet in petsToUpdateThisTick)
             {
                 if (pet.IsAlive)
                 {
-                    pet.PassTime(statDecreaseAmount); // pet own stat decrease and death check
+                    pet.PassTime(statDecreaseAmount); // pet handles its own stat decrease and death check
                 }
             }
         }
@@ -114,7 +118,6 @@ namespace GameProg
 
         public IPet? GetPetByName(string name)
         {
-            // find living pet
             return adoptedPets.FirstOrDefault(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase) && p.IsAlive);
         }
     }
