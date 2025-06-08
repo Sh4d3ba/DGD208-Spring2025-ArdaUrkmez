@@ -1,0 +1,5 @@
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.AssemblyInfo.cs
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\GameProg\obj\Debug\net9.0\GameProg.sourcelink.json
