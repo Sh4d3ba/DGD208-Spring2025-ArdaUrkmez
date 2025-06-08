@@ -143,7 +143,7 @@ namespace GameProg
         private async Task ViewPetsStatusAsync()
         {
             Console.Clear();
-            Console.WriteLine("--- Your Pets' Status ---");
+            Console.WriteLine(" -Your Pets' Status- ");
             var pets = _petManager.GetAdoptedPets(); // gets all, including deceased
 
             if (!pets.Any())
@@ -162,7 +162,7 @@ namespace GameProg
         private async Task UseItemOnPetAsync()
         {
             Console.Clear();
-            Console.WriteLine("--- Use an Item ---");
+            Console.WriteLine(" -Use an Item- ");
 
             var livingPets = _petManager.GetLivingPets();
             if (!livingPets.Any())
@@ -211,7 +211,7 @@ namespace GameProg
         private Task DisplayCreatorInfoAsync()
         {
             Console.Clear();
-            Console.WriteLine("--- Project Creator Information ---");
+            Console.WriteLine(" -Project Creator Information- ");
             Console.WriteLine($"Name: {CREATOR_NAME}");
             Console.WriteLine($"Student Number: {STUDENT_NUMBER}");
             return Task.CompletedTask;
