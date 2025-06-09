@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProg", "GameProg\GameProg.csproj", "{43EC9CFF-0476-4486-8152-0730E2DFDED5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractivePetSimulator2000", "InteractivePetSimulator2000\InteractivePetSimulator2000.csproj", "{43EC9CFF-0476-4486-8152-0730E2DFDED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

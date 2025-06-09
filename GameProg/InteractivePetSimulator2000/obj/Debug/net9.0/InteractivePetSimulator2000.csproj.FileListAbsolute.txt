@@ -1,0 +1,15 @@
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\bin\Debug\net9.0\InteractivePetSimulator2000.exe
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\bin\Debug\net9.0\InteractivePetSimulator2000.deps.json
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\bin\Debug\net9.0\InteractivePetSimulator2000.runtimeconfig.json
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\bin\Debug\net9.0\InteractivePetSimulator2000.dll
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\bin\Debug\net9.0\InteractivePetSimulator2000.pdb
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\InteractivePetSimulator2000.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\InteractivePetSimulator2000.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\InteractivePetSimulator2000.AssemblyInfo.cs
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\InteractivePetSimulator2000.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\InteractivePetSimulator2000.sourcelink.json
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\InteractivePetSimulator2000.dll
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\refint\InteractivePetSimulator2000.dll
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\InteractivePetSimulator2000.pdb
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\InteractivePetSimulator2000.genruntimeconfig.cache
+C:\Users\PC\Documents\GitHub\DGD208-Spring2025-ArdaUrkmez\GameProg\InteractivePetSimulator2000\obj\Debug\net9.0\ref\InteractivePetSimulator2000.dll
