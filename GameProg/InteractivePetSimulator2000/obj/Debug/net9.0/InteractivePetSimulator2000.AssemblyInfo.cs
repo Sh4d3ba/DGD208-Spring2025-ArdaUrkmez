@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InteractivePetSimulator2000")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+851458621d80ca68ff123bce6e5637d761f706c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1836eaa7564134f63b149118fb521d467cb0de11")]
 [assembly: System.Reflection.AssemblyProductAttribute("InteractivePetSimulator2000")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InteractivePetSimulator2000")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
