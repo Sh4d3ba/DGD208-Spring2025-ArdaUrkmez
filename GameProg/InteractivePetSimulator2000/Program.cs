@@ -1,6 +1,4 @@
-﻿// Program.cs
-// Entry point for the Interactive Pet Simulator.
-
+﻿
 using System.Threading.Tasks; 
 
 namespace GameProg 
